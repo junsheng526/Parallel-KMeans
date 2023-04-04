@@ -19,6 +19,7 @@ struct Point {
     Point() : x(0.0), y(0.0), cluster(-1), minDist(DBL_MAX) {}
     Point(double x, double y) : x(x), y(y), cluster(-1), minDist(DBL_MAX) {}
 
+
     /**
      * Computes the (square) euclidean distance between this point and another
      */
